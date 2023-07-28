@@ -69,3 +69,13 @@ Changing one data type to another (eg: int to str)
 * explicit conversion (typecasting) - manually converted. 
 
 ## Namespace
+Collection of names
+* Built-in (All over python)
+* Global (Module)
+* Local (Function)
+
+
+## Global
+when you create a variable outside of any function or block of code, it is called a global variable. Global variables are accessible from anywhere in the code, including inside functions.
+
+However, if you want to modify the value of a global variable from within a function, you need to use the global keyword. This is because, by default, Python assumes that any variable created or modified inside a function is a local variable, not a global one.
