@@ -50,9 +50,36 @@ string is  a sequence of characters.
 
 
 ## Set
-Collection of unique data.
-empty set = set()
-empty dictionary = { }
+* Collection of unique data.
+* empty set = set()
+* empty dictionary = { }
+* Implemented using hash tables.
+
+#### 1. **Frozenset** = Immutable
+#### 2. **Set** = Mutable 
 
 ### set operations
-* add() = add an element.
+* **union  ( | )** = join two sets without duplicates.
+* **Intersection ( & )** = elements common in both sets.
+* **Difference ( - )** = Elements in first set, but not in second set.
+* **Symmetric difference  (^ )** = Elements that are either of the sets, but not in both.
+* **Subset (<= or issubset())** = if all elements of a set is present in another set.
+* **Superset (>=)**  = A set is considered a superset of another set if it contains all the elements of the other set.
+
+
+### Additional methods
+* add() = Add element.
+* remove() = Raises Key Error if element is not found
+* discard() =  Doesn't raise error if element is not found.
+* copy() = 
+* clear() = Remove all elements in a set.
+
+
+### Set comprehension
+Concise way to write a set.
+```
+{expression for item in iterable if condition}
+```
+
+
+## Dictionary
