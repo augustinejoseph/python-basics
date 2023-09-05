@@ -1,5 +1,5 @@
 empty_set = set([])
-set_1 = set(["Augustine", "Kerala", 1,2, False])
+set_1 = set(["Augustine", "Kerala", 1, 2, False])
 set_2 = {"Augustine"}
 frozenset = frozenset()
 print("is frozenset : ", type(frozenset))
@@ -11,7 +11,7 @@ print("union : ", union)
 
 # Intersection
 intersection = set_1 & set_2
-print( " Intersection : ", intersection)
+print(" Intersection : ", intersection)
 
 
 # Difference
@@ -20,7 +20,7 @@ print(f"difference: {difference}")
 
 
 # Symmetric difference
-symmetric = set_1^ set_2
+symmetric = set_1 ^ set_2
 print("Symmetric : ", symmetric)
 
 
@@ -32,10 +32,9 @@ print("Subset : ", set_1 <= set_2)
 print("Superset : ", set_1 >= set_2)
 
 
-
 # set comprehensions
-nums = (1,2,3,4,5)
-set ={x**2 for x in nums}
+nums = (1, 2, 3, 4, 5)
+set = {x**2 for x in nums}
 
 
 text = "hello world"
